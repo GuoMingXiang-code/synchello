@@ -1,7 +1,7 @@
 version: 1.2
 workflows:
-  - subclass: /hellosync.wdl
-    primaryDescriptorPath: <String>
+  - subclass: WDL
+    primaryDescriptorPath: /hellosync.wdl
     testParameterFiles: 
     authors:
       - name: gmx
